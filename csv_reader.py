@@ -3,7 +3,7 @@ from langchain.agents import create_csv_agent
 from langchain.llms import OpenAI
 import altair
 
-openai_api_key = "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"
+openai_api_key = "your openai api key"
 
 st.set_page_config(page_title="CSV Reader")
 st.header("CSV Reader")
